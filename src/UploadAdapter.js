@@ -40,7 +40,7 @@ export default class UploadAdapter {
    * @returns {Promise}
    */
   upload() {
-    return new Promise((resolve, reject) => {
+    return this.loader.file.then(file => new Promise((resolve, reject) => {
       const reader = this.reader = new window.FileReader();
 
       reader.onload = function () {
@@ -55,8 +55,8 @@ export default class UploadAdapter {
         reject();
       };
 
-      reader.readAsDataURL(this.loader.file);
-    });
+      reader.readAsDataURL(file);
+    }));
   }
 
   /**
