@@ -1,12 +1,19 @@
 {
-  "name": "ckeditor5-base64-adapter",
-  "version": "1.0.0",
-  "main": "index.js",
+  "name": "ckeditor5-base64-upload-adapter",
+  "version": "1.0.2",
+  "description": "ckeditor 5 base64 upload adapter plugin",
+  "main": "src/Base64UploadAdapter.js",
   "author": "Casper Lai <casper.lai@sleepingdesign.com>",
+  "url": "https://github.com/CasperLaiTW/ckeditor5-base64-adapter",
   "license": "MIT",
   "private": false,
   "dependencies": {
     "@ckeditor/ckeditor5-core": "^12.0.0",
     "@ckeditor/ckeditor5-upload": "^11.0.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CasperLaiTW/ckeditor5-base64-adapter.git"
+  },
+  "homepage": "https://github.com/CasperLaiTW/ckeditor5-base64-adapter"
 }
