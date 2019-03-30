@@ -1,0 +1,12 @@
+{
+  "name": "ckeditor5-base64-adapter",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Casper Lai <casper.lai@sleepingdesign.com>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "@ckeditor/ckeditor5-core": "^12.0.0",
+    "@ckeditor/ckeditor5-upload": "^11.0.0"
+  }
+}
